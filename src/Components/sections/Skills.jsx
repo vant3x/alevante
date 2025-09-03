@@ -49,10 +49,10 @@ const Skills = () => {
         {/* Tech Categories */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
-            { title: 'Frontend', techs: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Three.js'], color: 'border-cyan-400' },
-            { title: 'Backend', techs: ['Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'Redis'], color: 'border-green-400' },
-            { title: 'Mobile', techs: ['React Native', 'Expo', 'iOS', 'Android', 'Flutter'], color: 'border-purple-400' },
-            { title: 'Creative', techs: ['Blender', 'After Effects', 'Photoshop', 'Cinema 4D', 'Unity'], color: 'border-pink-400' }
+            { title: 'Frontend', techs: ['React', 'Next.js', 'Angular', 'CSS','TypeScript', 'Tailwind','Bootstrap' , 'Three.js', 'Jquery'], color: 'border-cyan-400' },
+            { title: 'Backend', techs: ['Node.js', 'Express', 'NestJS', 'Python', 'FastAPI'  ,'PHP','MongoDB', 'PostgreSQL', 'Redis'], color: 'border-green-400' },
+            { title: 'Mobile and desktop', techs: ['React Native', 'Expo', 'iOS', 'Android', 'Electron', 'Tauri', 'Rust/ICED', 'PWAs', 'VB.net Windows Forms'], color: 'border-purple-400' },
+            { title: 'Creative', techs: ['Blender', 'After Effects', 'Premiere', 'Photoshop', 'Cinema 4D', 'Final Cut', 'DaVinci' , ' Unreal Engine', 'Unity'], color: 'border-pink-400' }
           ].map((category, index) => (
             <div key={index} className={`bg-black/50 border-2 ${category.color} rounded-lg p-4 hover:shadow-lg hover:shadow-${category.color}/25 transition-all duration-300`}>
               <h3 className="text-lg font-bold text-white mb-3 text-center">{category.title}</h3>

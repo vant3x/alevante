@@ -69,7 +69,7 @@ const Projects = () => {
             { number: '6+', label: 'Major Projects', color: 'text-cyan-400' },
             { number: '15+', label: 'Technologies', color: 'text-purple-400' },
             { number: '500K+', label: 'Lines of Code', color: 'text-pink-400' },
-            { number: '50+', label: 'Happy Clients', color: 'text-orange-400' }
+            { number: '10+', label: 'Happy Clients', color: 'text-orange-400' }
           ].map((stat, index) => (
             <div key={index} className="text-center group cursor-pointer">
               <div className={`text-2xl sm:text-3xl font-black ${stat.color} group-hover:scale-110 transition-transform duration-300`}>

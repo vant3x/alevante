@@ -1,5 +1,6 @@
 import React from 'react';
 import { Menu, X } from 'lucide-react';
+import { menu_items } from '../../data/portfolioData';
 
 const Header = ({ activeSection, setActiveSection, mobileMenuOpen, toggleMobileMenu }) => {
   const navigateToSection = (section) => {
@@ -17,7 +18,7 @@ const Header = ({ activeSection, setActiveSection, mobileMenuOpen, toggleMobileM
           
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
-            {['home', 'about', 'skills', 'projects', 'services', 'experience', 'contact'].map((section) => (
+            {menu_items.map((section) => (
               <button
                 key={section}
                 onClick={() => setActiveSection(section)}

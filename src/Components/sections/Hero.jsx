@@ -29,13 +29,13 @@ const Hero = ({ setActiveSection }) => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
           <button 
             onClick={() => setActiveSection('projects')}
-            className="px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-black font-bold uppercase tracking-widest hover:scale-105 transition-all duration-300 shadow-lg shadow-cyan-500/25"
+            className="px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-black font-bold uppercase tracking-widest hover:scale-105 transition-all duration-300 shadow-lg shadow-cyan-500/25 cursor-pointer"
           >
             View Projects
           </button>
           <button 
             onClick={() => setActiveSection('contact')}
-            className="px-6 sm:px-8 py-3 sm:py-4 border-2 border-purple-400 text-purple-400 font-bold uppercase tracking-widest hover:bg-purple-400 hover:text-black transition-all duration-300 shadow-lg shadow-purple-400/25"
+            className="px-6 sm:px-8 py-3 sm:py-4 border-2 border-purple-400 text-purple-400 font-bold uppercase tracking-widest hover:bg-purple-400 hover:text-black transition-all duration-300 shadow-lg shadow-purple-400/25 cursor-pointer"
           >
             Get In Touch
           </button>
@@ -44,8 +44,8 @@ const Hero = ({ setActiveSection }) => {
         {/* Stats */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-2xl mx-auto">
           {[
-            { number: '50+', label: 'Projects' },
-            { number: '5+', label: 'Years Exp' },
+            { number: '20+', label: 'Projects' },
+            { number: '6+', label: 'Years Exp' },
             { number: '20+', label: 'Technologies' },
             { number: '100%', label: 'Passion' }
           ].map((stat, index) => (

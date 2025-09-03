@@ -18,7 +18,7 @@ const About = () => {
                 My journey spans from building scalable web applications to crafting stunning 3D visualizations and implementing AI-powered solutions. I believe that the best digital experiences happen at the intersection of <span className="text-pink-400 font-semibold">beautiful design</span>, <span className="text-orange-400 font-semibold">cutting-edge technology</span>, and <span className="text-green-400 font-semibold">human-centered thinking</span>.
               </p>
               <p className="text-gray-300 leading-relaxed text-lg">
-                When I'm not coding or creating, you'll find me experimenting with new AI models, exploring the latest in WebXR, or pushing pixels in Blender to create the next mind-bending visual experience.
+                When I'm not coding or creating, you'll find me experimenting with new AI models, exploring the latest in WebXR, or pushing pixels in Blender and After efefcts to create the next mind-bending visual experience.
               </p>
             </div>
           </div>
@@ -42,7 +42,7 @@ const About = () => {
             <div className="bg-gradient-to-br from-cyan-900/30 to-purple-900/30 border border-cyan-400/30 rounded-lg p-6">
               <h3 className="text-xl font-bold text-cyan-400 mb-4">Currently Exploring</h3>
               <div className="space-y-2">
-                {['WebXR & Immersive Experiences', 'Generative AI Art', 'Real-time Rendering Techniques', 'Blockchain Integration'].map((item, index) => (
+                {['Web and Mobile development', 'Web Assembly and high performance projects', 'Clean architecture and DDD', 'Computer vision', 'Automatas and Turing machines' ,'WebXR & Immersive Experiences', 'Creative code and generative Art( Sonic PI, p5js, ThreeJS)', 'Real-time Rendering Techniques', 'LLMs APIs integrations,  Agents (Landgraph, LangChain) and workflow integration to n8n','Desktop software in Rust', 'Blockchain Integration'].map((item, index) => (
                   <div key={index} className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse"></div>
                     <span className="text-gray-300 text-sm">{item}</span>

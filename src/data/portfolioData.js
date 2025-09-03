@@ -1,11 +1,11 @@
 export const skills = [
-    { name: 'React/Next.js', level: 95, color: 'from-cyan-400 to-blue-500', icon: "Code" },
+    { name: 'React/Next.js', level: 95, color: 'from-cyan-400 to-blue-500', icon: "Code" },   { name: 'Angular', level: 95, color: 'from-red-400 to-red-600', icon: "Code" },
     { name: 'Node.js/Express', level: 90, color: 'from-green-400 to-emerald-500', icon: "Globe" },
     { name: 'React Native', level: 85, color: 'from-purple-400 to-pink-500', icon: "Smartphone" },
-    { name: 'PHP/Laravel/Lumen', level: 88, color: 'from-orange-400 to-red-500', icon: "Brain" },
+    { name: 'PHP/Laravel/Lumen', level: 88, color: 'from-green-400 to-red-500', icon: "Brain" },
     { name: 'Python/AI/ML', level: 88, color: 'from-orange-400 to-red-500', icon: "Brain" },
-    { name: 'Rust/WASM', level: 88, color: 'from-orange-400 to-red-500', icon: "Brain" },
-    { name: 'Three.js/WebGL', level: 92, color: 'from-indigo-400 to-purple-500', icon: "Zap" },
+    { name: 'Rust/WASM', level: 70, color: 'from-orange-400 to-red-500', icon: "Brain" },
+    { name: 'Three.js/WebGL', level: 92, color: 'from-indigo-400 to-purple-500', icon: "Zap" }, { name: 'Linux and AWS', level: 94, color: 'from-yellow-400 to-orange-500', icon: "Palette" },
     { name: 'Blender/3D/VFX', level: 94, color: 'from-yellow-400 to-orange-500', icon: "Palette" },
   ];
   
@@ -117,3 +117,5 @@ export const skills = [
       features: ['Blender/Maya', 'Motion Graphics', 'Particle Systems', 'Rendering']
     }
   ];
+
+  export const menu_items = ['home', 'about', 'skills', 'projects', 'services', 'experience', 'blog', 'contact'];

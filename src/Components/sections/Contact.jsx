@@ -21,7 +21,7 @@ const Contact = () => {
               
               <div className="space-y-6">
                 {[
-                  { icon: <Mail className="w-6 h-6" />, title: 'Email', value: 'alejandrovelasquezmolina@dgmail.com', color: 'text-cyan-400' },
+                  { icon: <Mail className="w-6 h-6" />, title: 'Email', value: 'alejandrovelasquezmolina@gmail.com', color: 'text-cyan-400' },
                   { icon: <Github className="w-6 h-6" />, title: 'GitHub', value: '@vant3x', color: 'text-green-400' },
                   { icon: <Linkedin className="w-6 h-6" />, title: 'LinkedIn', value: '/in/alevantem', color: 'text-blue-400' }
                 ].map((contact, index) => (
@@ -84,6 +84,7 @@ const Contact = () => {
                 <label className="block text-gray-400 text-sm mb-2">Project Type</label>
                 <select className="w-full px-4 py-3 bg-black/50 border border-gray-600 rounded-lg text-white focus:border-cyan-400 focus:outline-none transition-colors duration-300">
                   <option>Web Development</option>
+                  <option>Backend Development</option>
                   <option>Mobile App</option>
                   <option>3D/VFX Project</option>
                   <option>AI Integration</option>
